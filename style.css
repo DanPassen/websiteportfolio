@@ -12,6 +12,10 @@ body {
     padding: 0 var(--spacing-3);
 }
 
+footer {
+    display: block;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -97,4 +101,11 @@ h3 a {
 
 h3 a:hover {
     color: red;
+}
+
+.contact-form {
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
     <title>Dan Passen Portfolio</title>
 </head>
 
@@ -11,6 +12,7 @@
 
      <nav>
         <h2 id="logo">Dan Passen's Portfolio</h2>
+
         <ul class="navigation-items">
 
             <li class="navigation-item"><a href="#about-me">About Me</li>
@@ -42,7 +44,8 @@
             </p>
         </div>
 
-        <img href="https://twitter.com/DanPassenNH/photo" alt="Dan Passen with Dunkin' iced coffee in sub-freezing temperatures" class="portrait"/>
+        <img src="https://bloximages.newyork1.vip.townnews.com/unionleader.com/content/tncms/assets/v3/editorial/4/8d/48d70da4-410f-57d8-8f88-4ab65831f2e6/5fc07f61e70de.image.png?resize=309%2C500" 
+        alt="Photo of Dan Passen with Dunkin' iced coffee in sub-freezing temperatures" class="portrait"/>
     
     </div>
 
@@ -67,7 +70,7 @@
 
   <section class="contact">
     <h2>Contact Form</h2>
-    <form action="/submit-form" method="post">
+    <form action="/submit-form" method="post" class="contact-form">
 
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
@@ -95,11 +98,16 @@
   <h2 class="footer">
     Thank you for visiting!
   </h2>
+
   <p class="footer-contact">
     Contact me any time.
   </p>
+
   <p>
     Email: Myemail@email.com
+  </p>
+
+  <p>
     Phone: 123-456-7890
   </p>
 
