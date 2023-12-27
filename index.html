@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dan Passen Portfolio</title>
 </head>
+
 <body>
+
+     <nav>
+        <h2 id="logo">Dan Passen's Portfolio</h2>
+        <ul class="navigation-items">
+
+            <li class="navigation-item"><a href="#about-me">About Me</li>
+
+            <li class="navigation-item"><a href="#projects">Projects</a></li>
+            
+            <li class="navigation-item"><a href="#contact">Contact</a></li>
+
+        </ul>
+     </nav>
+
+<main>
+  <section id="about-me">
+    <div class="about-me-container">
+        <div class="about-me-text-container">
+
+            <h2>About Me</h2>
+           
+            <p>
+                Hi! My name is Dan Passen. I initially started my career in politics
+                but then came to realize that it's a cesspool filled with people that only want to ruin your life.
+                Now here I am coding! I wanted to be a coder before I went to college, but was talked out of it for some reason.
+                Woo for misguided decisions!
+            </p>
+            
+            <p>
+                Anyway, despite my overtly sarcastic tone, I promise I'm not a terrible person. I've enjoyed learning on Codecademy
+                for the last 3 months! Enjoy my first landing page.
+            </p>
+        </div>
+
+        <img href="https://twitter.com/DanPassenNH/photo" alt="Dan Passen with Dunkin' iced coffee in sub-freezing temperatures" class="portrait"/>
     
+    </div>
+
+  </section>
+
+  <section id="projects">
+
+    <h2>Projects</h2>
+
+    <details class="project">
+
+        <summary class="project title">
+            <h3><a href="https://github.com/DanPassen/randomMessageGenerator/blob/b88ee89311191c0a89d149dd2dab0464fe7b6a2e/script.js">Random Text Generator</a></h3>
+        </summary>
+
+        <p class="project-description">
+            My first Javascript project.
+        </p>
+        
+    </details>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Form</h2>
+    <form action="/submit-form" method="post">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <br>
+
+    <label for="purpose">Purpose for Contacting:</label>
+    <textarea type="text" id="purpose" name="purpose" rows="5" cols="8" required></textarea>
+    
+    <br>
+
+    <input type="submit" value="Submit Request">
+
+    </form>
+  </section>
+
+</main>     
+
+<footer>
+  <h2 class="footer">
+    Thank you for visiting!
+  </h2>
+  <p class="footer-contact">
+    Contact me any time.
+  </p>
+  <p>
+    Email: Myemail@email.com
+    Phone: 123-456-7890
+  </p>
+
+</footer>
+
 </body>
 </html>
