@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css"/>
+    <script src="script.js" defer></script>
     <title>Dan Passen Portfolio</title>
 </head>
 
@@ -81,6 +82,15 @@
     <input type="email" id="email" name="email" required>
 
     <br>
+    
+    <section class="importance-radio">
+        <span>How important is this request?</span>
+        <br>
+        <input type="radio" name="important" id="very important" value="Very important">
+        <label for="very important">Very important</label>
+        <input type="radio" name="important" id="not important" value="not important">
+        <label for="not important">Not important</label>
+      </section>
 
     <label for="purpose">Purpose for Contacting:</label>
     <textarea type="text" id="purpose" name="purpose" rows="5" cols="8" required></textarea>
