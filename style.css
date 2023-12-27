@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+    display: block;
+}
+
+body {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 var(--spacing-3);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0em;
+    font-family: "open sans", sans-serif;
+    justify-content: space-between;
+}
+
+.navigation-items {
+    display: flex;
+    align-items: left;
+    margin: 2em;
+    list-style-type: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+nav li {
+    margin-right: 15px;
+
+}
+
+#logo {
+    color: midnightblue;
+    font-style: italic;
+}
+
+nav li a {
+    text-decoration: none;
+    color: midnightblue;
+}
+
+nav li a:hover {
+    color: red;
+    border: 2px solid black;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#about-me {
+    display: block;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-text-container {
+    margin-right: var(--spacing-3);
+}
+
+.portrait {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.projects {
+    display: block;
+}
+
+.project {
+    display: block;
+}
+
+h3 {
+    color: midnightblue;
+}
+
+h3 a {
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: red;
+}
