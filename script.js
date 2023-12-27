@@ -1,1 +1,1 @@
-alert("Welcome to my page! Try not to get depressed")
+alert("Welcome to my page! Try not to get depressed.")
